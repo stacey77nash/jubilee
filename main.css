@@ -1,0 +1,198 @@
+/***** BASE STYLES *****/
+* { 
+    margin:0px; 
+    padding:0px; 
+    box-sizing:border-box; 
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	margin: 0px;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+	
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+   	float: left;
+}
+
+/***** "Header" section *****/
+
+header {
+    height: 800px;
+    background: url('../img/images-icons/hero.png');
+    background-size: cover;
+}
+
+header h1 { 
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+
+}
+
+/***** Inside the header: "Navigation" section *****/
+
+    nav {
+        float: right; 
+        padding: 75px 25px;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 18px;
+        color: #828282;
+        padding-left: 80px; 
+    }
+
+/***** Big text inside the header *****/
+
+header h2 {
+    width: 1100px;
+    clear: both;
+    font-family: 'Lora',serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color:  #2b2b2b;
+}
+
+/***** "About" section *****/
+
+#about .full-width {
+    padding: 80px 0;
+    font-family: 'Lora', serif;
+
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+ 
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** "Work" section *****/
+
+#work {
+    background-color: #F9CEB7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+ 
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 50px;
+}
+
+/***** "Contact" section *****/ 
+
+ #contact {
+    background-color: #EBEBEB;
+    
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
